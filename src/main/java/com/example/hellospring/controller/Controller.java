@@ -13,7 +13,7 @@ public class Controller {
 
     @PostMapping("/post")  // POST 요청을 처리
     public String post() {
-        return "This is a POST request - post"; // "This is a DELETE request - post"라는 문자열이 응답으로 전송
+        return "This is a POST request - post "; // "This is a DELETE request - post"라는 문자열이 응답으로 전송
     }
 
     @PatchMapping("/patch")  // PATCH 요청을 처리
